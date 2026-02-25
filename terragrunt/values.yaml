@@ -1,0 +1,6 @@
+version: "v0.75.0"
+
+labels:
+  org.opencontainers.image.source: "https://github.com/corebug/helpful-containers"
+  org.opencontainers.image.description: "Terragrunt with Terraform for legacy codebases"
+

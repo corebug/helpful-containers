@@ -1,0 +1,8 @@
+# JetBrains IDE
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains Static Code Analysis (Qodana)
+.qodana
