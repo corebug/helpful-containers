@@ -1,5 +1,5 @@
 # Helpful Containers
-[![Build](https://github.com/corebug/helpful-containers/workflows/Build/badge.svg)](https://github.com/corebug/helpful-containers/actions?query=workflow%3ABuild)
+[![Build](https://github.com/corebug/helpful-containers/actions/workflows/main.yaml/badge.svg)](https://github.com/corebug/helpful-containers/actions/workflows/main.yaml)
 
 A collection of useful Docker images for development and CI/CD workflows.
 
