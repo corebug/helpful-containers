@@ -9,4 +9,4 @@ RUN addgroup tguser && adduser -D tguser -G tguser && mkdir /code && chown tguse
 WORKDIR /code
 USER tguser
 
-ENTRYPOINT exec /usr/local/bin/terragrunt
+ENTRYPOINT ["/usr/local/bin/terragrunt"]
