@@ -24,11 +24,11 @@ With AWS credentials:
 
 ```bash
 docker run --rm \
-  -v $(pwd):/app \
-  -w /app \
-  -e AWS_ACCESS_KEY_ID \
-  -e AWS_SECRET_ACCESS_KEY \
-  -e AWS_SESSION_TOKEN \
+  --name terragrunt \
+  -v $(pwd):/code \
+  -w /code \
+  -v ~/.aws:/home/tguser/.aws \
+  -e AWS_PROFILE=YOUR_PROFILE \
   corebug/terragrunt plan
 ```
 
